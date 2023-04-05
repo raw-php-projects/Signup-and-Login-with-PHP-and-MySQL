@@ -1,15 +1,5 @@
 <?php
 
-# Check if name is not empty - Done
-# Validate Email - Done
-# Password should be grater than 8 - Done
-# Contain a-z/0-9 - Done
-# Check both password is same - Done
-# Password Hash - Done
-# Create Database and Table - Done
-# Connect to the databse - Done
-# Insert user to the database
-
 // Check if name is empty
 if ( empty( $_POST['name'] ) ) {
     die( 'Name is required' );
